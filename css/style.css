@@ -78,10 +78,83 @@ body{
     text-align: center;
 }
 .about-img{
-width: 802.9px;
-height: 500px;
+    width: 802.9px;
+    height: 500px;
 }
 .about-img img{
     width: 100%;
     height: auto;
+}
+/* bannar card section */
+ .card{
+    width: 90%;
+    height: 620px;
+    margin: 0px auto;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+} 
+.card-sub{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+   
+}
+.card-titel{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+ .card .card-head{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 120px ;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.8); 
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    text-align: left;
+}
+.card  #button{
+    color: rgb(255, 255, 255);  
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-img img{
+    width: 100%;
+    height: auto;
+    margin-top: 90px; 
+}
+/* menu section */
+.menu{
+    width: 90%;
+    height: 482px;
+    border-radius: 16px;
+     margin: 40px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 26px;
+     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.menu span{
+    color: rgb(255, 0, 0);
+}
+.menu .btn{
+    padding: 16px 32px;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    border: none;
 }

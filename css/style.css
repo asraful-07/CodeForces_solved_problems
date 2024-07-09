@@ -89,7 +89,7 @@ body{
  .card{
     width: 90%;
     height: 620px;
-    margin: 0px auto;
+    margin: 30px auto;
     background-image: url(../images/Vectorrr.png);
     background-position: center;
     background-size: cover;
@@ -157,4 +157,48 @@ body{
     background-color: rgb(255, 0, 0);
     border-radius: 10px;
     border: none;
+}
+/* parti section */
+.parti{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.parti-title h4{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+}
+.parti-title h2{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.parti .parti-title .pixso{
+    /* color: rgba(7, 2, 17, 0.6); */
+    color: aqua;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+/* imges section */
+.imges{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.imge img{
+ width: 100%;
+ height: auto;
+ border-radius: 16px;
 }

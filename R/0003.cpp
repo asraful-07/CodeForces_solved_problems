@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+
+    int A[N];
+    
+    for (int i = 0; i < N; i++) {
+        cin >> A[i];
+    }
+
+    for (int i = N - 1; i >= 0; i--) {
+        cout << A[i] << " ";
+    }
+
+    return 0;
+}
+
+
+
+/*
+Input 
+7 8 4 2
+
+Output
+2 4 7 8
+*/

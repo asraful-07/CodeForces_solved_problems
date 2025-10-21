@@ -33,7 +33,7 @@ int main() {
 
 /*
 Input
-jersey_no
+Football 
 
 Output
 Messi Messi 10 Argentina

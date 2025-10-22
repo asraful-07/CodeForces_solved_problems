@@ -6,6 +6,8 @@
     "random": "cpp",
     "limits": "cpp",
     "valarray": "cpp",
-    "new": "cpp"
+    "new": "cpp",
+    "iomanip": "cpp",
+    "iosfwd": "cpp"
   }
 }

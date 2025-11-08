@@ -11,7 +11,7 @@ This repository contains all of my **Codeforces** problem solutions — written 
 
 | Platform      | Solved Problems          | Language Used     |
 | ------------- | ------------------------ | ----------------- |
-| 🧠 Codeforces | **240+ problems solved** | C++ / Python / JS |
+| 🧠 Codeforces | **240+ problems solved** | C / C++ / GO / JS |
 
 > I'm continuously practicing to improve my logic building, speed, and efficiency in competitive programming.
 
